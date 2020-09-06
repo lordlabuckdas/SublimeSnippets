@@ -1,0 +1,28 @@
+<snippet>
+	<description>c++template</description>
+	<content><![CDATA[
+#define _CRT_SECURE_NO_DEPRECATE
+#pragma GCC optimize("Ofast")
+#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
+#define SYNC std::ios_base::sync_with_stdio(0);cin.tie(NULL);cout.tie(NULL);
+#include"bits/stdc++.h"
+using namespace std;
+#define MOD 1000000007
+typedef long long ll;
+typedef long double ld;
+typedef pair<int, int> ii;
+typedef pair<int, ii> iii;
+typedef vector<int> vi;
+typedef vector<ii> vii;
+typedef vector<vi> vvi;
+typedef vector<ll> vll;
+
+int main() {
+	SYNC
+	$0
+}
+
+]]></content>
+	<tabTrigger>tpl</tabTrigger>
+	<scope>source.c++</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<description>loop input</description>
+	<content><![CDATA[
+for(ll i = 0; i < (ll)n; i++)
+	cin>>a[i];
+]]></content>
+	<tabTrigger>inpu</tabTrigger>
+	<scope>source.c++</scope>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+    <description>binary search</description>
+	<content><![CDATA[
+ll low = ${1:0}, high = ${2:n - 1}, mid;
+while (low <= high) {
+    mid = (low + high) / 2;
+    if (${3:a}[mid] < ${4:x}) {
+        low = mid + 1;
+    }
+    else if (${3:a}[mid] == ${4:x}) {
+        $0
+    }
+    else {
+        high = mid - 1;
+    }
+}
+]]></content>
+	<tabTrigger>binarySearch</tabTrigger>
+    <scope>source.c++</scope>
+</snippet>

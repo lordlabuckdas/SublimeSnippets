@@ -1,0 +1,8 @@
+<snippet>
+	<description>space-sep prnt</description>
+	<content><![CDATA[
+cout << ${1:a[i]} << " ";
+]]></content>
+	<tabTrigger>deb</tabTrigger>
+	<scope>source.c++</scope>
+</snippet>
