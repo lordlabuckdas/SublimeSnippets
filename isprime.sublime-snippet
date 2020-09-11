@@ -1,5 +1,5 @@
 <snippet>
-    <description>isPrime fn defn</description>
+    <description>isPrime fn</description>
 	<content><![CDATA[
 bool isPrime(ll n) 
 {

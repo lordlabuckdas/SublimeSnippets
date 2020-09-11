@@ -5,7 +5,7 @@
 #pragma GCC optimize("Ofast")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
 #define SYNC std::ios_base::sync_with_stdio(0);cin.tie(NULL);cout.tie(NULL);
-#include"bits/stdc++.h"
+#include "bits/stdc++.h"
 using namespace std;
 #define MOD 1000000007
 typedef long long ll;

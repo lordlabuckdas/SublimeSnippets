@@ -1,7 +1,7 @@
 <snippet>
-	<descrption>for loop</descrption>
+	<description>for loop</description>
 	<content><![CDATA[
-for(ll ${1:i} = (ll){2:0}; ${1:i} < (ll){3:n}; ${1:i}++) {
+for(ll ${1:i} = (ll)${2:0}; ${1:i} < (ll)${3:n}; ${1:i}++) {
 	$0
 }
 ]]></content>
