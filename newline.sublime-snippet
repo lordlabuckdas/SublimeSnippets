@@ -1,0 +1,8 @@
+<snippet>
+	<description>newline-sep</description>
+	<content><![CDATA[
+ << "\n"
+]]></content>
+	<tabTrigger>nl</tabTrigger>
+	<scope>source.c++</scope>
+</snippet>
